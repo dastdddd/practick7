@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.span {
+  text-align: left;
+}
+.span span {
+  font-size: 17px;
+  text-transform: capitalize;
+  letter-spacing: .3px;
+}
+
+.button button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+  background-color: #918e8e;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.button button:hover {
+  background-color: #b8b4b4;
+}
+
+.button button:disabled {
+  background-color: #979393;
+  color: #727070;
+}

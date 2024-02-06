@@ -1,0 +1,9 @@
+.item {
+  max-width: 500px;
+  min-width: 200px;
+  margin: 20px auto;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
